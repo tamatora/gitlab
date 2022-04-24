@@ -1,0 +1,7 @@
+# zabbix用変数
+zabbix_ip: 192.168.240.56
+zabbix_host: ETS240dev002P
+
+# firewall用変数
+ssh_ip:
+  - 192.168.240.0/24

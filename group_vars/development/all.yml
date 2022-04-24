@@ -1,0 +1,8 @@
+# zabbix用変数
+zabbix_ip: 172.18.100.20
+zabbix_host: test-server
+
+# firewall用変数
+ssh_ip:
+  - 172.18.100.0/24
+  - 192.168.240.0/24

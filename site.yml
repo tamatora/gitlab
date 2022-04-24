@@ -1,0 +1,8 @@
+---
+- hosts: agent
+  become: true
+  roles:
+    - selinux
+    - chrony
+    - zabbix-agent
+    - firewalld
